@@ -3,14 +3,34 @@
   "version": "0.0.0",
   "description": "Use your own tag names without feeling guilty.",
   "main": "index.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "uglify-js": "^2.4.15"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "uglifyjs pretty-lazy.js -mc -o pretty-lazy.min.js"
+    "build": "uglifyjs index.js -mc -o index.min.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Alexander Gugel <alexander.gugel@gmail.com>",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexanderGugel/pretty-lazy.git"
+  },
+  "keywords": [
+    "Web Components",
+    "util",
+    "polyfill",
+    "browser",
+    "client",
+    "html5",
+    "registerElement"
+  ],
+  "bugs": {
+    "url": "https://github.com/alexanderGugel/pretty-lazy/issues"
+  },
+  "homepage": "https://github.com/alexanderGugel/pretty-lazy"
 }
