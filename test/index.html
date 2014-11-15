@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pretty Lazy</title>
+
+    <style>
+      & {
+        background: green;
+      }
+
+      /* apply a dashed border to all unresolved elements */
+      :unresolved {
+        background: red;
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <x-panel>I'm red because I match x-panel:unresolved.</x-panel>
+
+    <script src="../pretty-lazy.js"></script>
+  </body>
+</html>

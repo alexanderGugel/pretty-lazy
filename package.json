@@ -1,0 +1,16 @@
+{
+  "name": "pretty-lazy",
+  "version": "0.0.0",
+  "description": "Use your own tag names without feeling guilty.",
+  "main": "index.js",
+  "dependencies": {
+    "uglify-js": "^2.4.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "uglifyjs pretty-lazy.js -mc -o pretty-lazy.min.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
