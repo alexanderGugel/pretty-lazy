@@ -13,15 +13,15 @@ Want an example?
 
 This is Facebook:
 
-![Facebook](https://github.com/alexanderGugel/pretty-lazy/screenshots/facebook.png)
+![Facebook](https://cdn.rawgit.com/alexanderGugel/pretty-lazy/master/screenshots/facebook.png)
 
 Twitter:
 
-![Twitter](https://github.com/alexanderGugel/pretty-lazy/screenshots/twitter.png)
+![Twitter](https://cdn.rawgit.com/alexanderGugel/pretty-lazy/master/screenshots/twitter.png)
 
 Gmail:
 
-![Gmail](https://github.com/alexanderGugel/pretty-lazy/screenshots/gmail.png)
+![Gmail](https://cdn.rawgit.com/alexanderGugel/pretty-lazy/master/screenshots/gmail.png)
 
 What does this do?
 ------------------
