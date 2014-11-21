@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "uglifyjs index.js -mc -o index.min.js"
+    "build": "uglifyjs index.js -mc -o pretty-lazy.min.js && cp index.js pretty-lazy.js"
   },
   "author": "Alexander Gugel <alexander.gugel@gmail.com>",
   "license": "MIT",
